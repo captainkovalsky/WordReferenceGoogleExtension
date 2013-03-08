@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"WordReference word helper",
+    "description":"This extension open windows with selected word on WordReference.com.",
+    "version":"1.0",
+
+    "permissions":[
+        "contextMenus", "tabs"
+    ],
+    "background":{
+        "scripts":["bg.js"]
+    }
+}
